@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "bioRhyme";
+  src: url("fonts/BioRhyme-Light.ttf");
+}
+
+@font-face {
+  font-family: "bioRhymeEL";
+  src: url("fonts/BioRhyme-ExtraLight.ttf");
+}
+body {
+  font-family: "bioRhyme" !important;
+  line-height: 2em !important;
+  padding: 0;
+  margin: 0;
+}
+
+/*NUMBERS*/
+.numbersContainer {
+  padding: 1rem;
+  background-color: #dedede;
+  color: #111;
+  font-weight: 100;
+}
+
+.title {
+  text-align: center;
+  padding: 2rem auto;
+}
+
+hr {
+  max-width: 60vw;
+}
+
+.unitDescription {
+  padding: 10px;
+}
+
+.irregularsDescription {
+  background-color: #f0f0f0;
+}
+
+#numberDescription {
+  display: flex;
+  justify-content: center;
+  background-color: #f0f0f0;
+  widows: 30vw;
+  height: 7rem;
+}
+
+.column {
+  display: flex;
+  flex-flow: column;
+  margin: 2px;
+  padding: 5px;
+}
+
+#numberInput {
+  margin: 1.5rem auto;
+  max-width: 45vw;
+}
+
+#numberDescription {
+  min-height: 180px;
+}
+
+/*END NUMBERS*/
