@@ -28,6 +28,12 @@ $("#textInput").keyup(function (e) {
   }
 });
 
+$("#textInput").keydown((e) => {
+  if (e.key === "-") {
+    e.preventDefault();
+  }
+});
+
 // Display number on example output
 function displayNumber(element) {
   let written = toWritten(element);
